@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naghom.zy.belajartatasurya">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".splash_screen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".home_quiz" />
+        <activity android:name=".merkurius" />
+        <activity android:name=".venus" />
+        <activity android:name=".bumi" />
+        <activity android:name=".mars" />
+        <activity android:name=".jupiter" />
+        <activity android:name=".saturnus" />
+        <activity android:name=".uranus" />
+        <activity android:name=".neptunus" />
+        <activity android:name=".pluto" />
+        <activity android:name=".about" />
+        <activity android:name=".quiz_1" />
+        <activity android:name=".quiz_2" />
+        <activity android:name=".quiz_3" />
+        <activity android:name=".quiz_4" />
+        <activity android:name=".final_quiz" />
+        <activity android:name=".home_quiz_1"></activity>
+    </application>
+
+</manifest>

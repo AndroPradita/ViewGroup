@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+
+    <TextView
+        android:id="@+id/tanya2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Pertanyaan 4"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="30sp"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tanya2"
+        android:paddingTop="20dp"
+        android:text="Planet terjauh dari Matahari adalah"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/jangkars"
+        android:textColor="#FFFF"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jangkars"
+        android:id="@+id/radiogroup"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFF">
+
+        <RadioButton
+            android:id="@+id/pluto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pluto"
+            android:textSize="30sp"
+            android:textColor="#FFFF"/>
+
+        <RadioButton
+            android:id="@+id/neptunus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neptunus"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"/>
+
+        <RadioButton
+            android:id="@+id/jupiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"/>
+
+        <RadioButton
+            android:id="@+id/uranus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uranus"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@+id/radiogroup"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/selanjutnya"/>
+
+</RelativeLayout>

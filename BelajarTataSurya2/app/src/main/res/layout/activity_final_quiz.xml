@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/pusat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONGRATS!"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/pusat"
+        android:layout_centerInParent="true"
+        android:id="@+id/pusat1"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pusat1"
+        android:text="HOME"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnya"
+        />
+
+</RelativeLayout>

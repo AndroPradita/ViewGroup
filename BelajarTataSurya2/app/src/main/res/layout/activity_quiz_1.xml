@@ -1,0 +1,60 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pertanyaan 1 :"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:id="@+id/jang2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/nan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jang2"
+        android:layout_centerHorizontal="true"
+        android:text="Apa nama planet ke 7 ini ?"
+        android:textSize="30sp"
+        android:textColor="#FFFF"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/jang2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/uranus" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/answer"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nan"
+        android:layout_centerHorizontal="true"
+        android:hint="answer"
+        android:textColor="#FFFF"
+        />
+    <Button
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/answer"
+        android:id="@+id/next3"/>
+
+
+</RelativeLayout>

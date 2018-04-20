@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Mengenal Hewan dan Buah</string>
+
+    <!--Activity Alpukat-->
+    <string name="alpukat">Alpukat</string>
+    <string name="desc_alpukat">Nama apokat atau avokad (dari bahasa Inggris, avocado) berasal dari bahasa Aztek, ahuacatl (dibaca kira-kira "awakatl"). Suku Aztek berada di daerah Amerika Tengah dan Meksiko. Karena itu, buah ini pada awalnya dikenal di daerah tersebut.
+        Pada saat pasukan Spanyol memasuki wilayah tersebut sekitar awal abad ke-16, berbagai tumbuhan dari daerah ini, termasuk apokat, diperkenalkan kepada penduduk Eropa. Orang pertama yang memperkenalkan buah apokat kepada penduduk Eropa yaitu Martín Fernández de Enciso, salah seorang pemimpin pasukan Spanyol. Dia memperkenalkan buah ini pada tahun 1519 kepada orang-orang Eropa. Pada saat yang sama juga, para pasukan Spanyol yang menjajah Amerika Tengah juga memperkenalkan kakao, jagung, dan kentang kepada masyarakat Eropa. Sejak itulah buah apokat mulai disebar dan dikenal oleh banyak penduduk dunia.
+        Apokat diperkenalkan ke Indonesia oleh Belanda pada abad ke-19.</string>
+
+    <!--Activity Apel-->
+    <string name="apel">Apel</string>
+    <string name="desc_apel">Apel adalah jenis buah-buahan, atau buah yang dihasilkan dari pohon buah apel. Buah apel biasanya berwarna merah kulitnya jika masak dan (siap dimakan), namun bisa juga kulitnya berwarna hijau atau kuning. Kulit buahnya agak lembek, daging buahnya keras. Buah ini memiliki beberapa biji di dalamnya.
+</string>
+
+    <!--Activity Durian-->
+    <string name="durian">Durian</string>
+    <string name="desc_durian">Nama apokat atau avokad (dari bahasa Inggris, avocado) berasal dari bahasa Aztek, ahuacatl (dibaca kira-kira "awakatl"). Suku Aztek berada di daerah Amerika Tengah dan Meksiko. Karena itu, buah ini pada awalnya dikenal di daerah tersebut.
+        Pada saat pasukan Spanyol memasuki wilayah tersebut sekitar awal abad ke-16, berbagai tumbuhan dari daerah ini, termasuk apokat, diperkenalkan kepada penduduk Eropa. Orang pertama yang memperkenalkan buah apokat kepada penduduk Eropa yaitu Martín Fernández de Enciso, salah seorang pemimpin pasukan Spanyol. Dia memperkenalkan buah ini pada tahun 1519 kepada orang-orang Eropa. Pada saat yang sama juga, para pasukan Spanyol yang menjajah Amerika Tengah juga memperkenalkan kakao, jagung, dan kentang kepada masyarakat Eropa. Sejak itulah buah apokat mulai disebar dan dikenal oleh banyak penduduk dunia.
+        Apokat diperkenalkan ke Indonesia oleh Belanda pada abad ke-19.</string>
+
+</resources>

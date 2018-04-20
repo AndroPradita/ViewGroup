@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/TitlePluto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/point"
+        android:layout_centerInParent="true"
+        android:text="PLUTO"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DescPluto"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitlePluto"
+        android:layout_centerInParent="true"
+        android:layout_gravity="top|center"
+        android:text="@string/pluto"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/BtnBackPluto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pointpluto"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/pointpluto"
+        android:text="Back"
+        />
+
+    <Button
+        android:id="@+id/BtnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pointpluto"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/pointpluto"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/pointpluto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DescPluto"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
